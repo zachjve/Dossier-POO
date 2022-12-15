@@ -14,6 +14,7 @@
                 <li><a href="?page=home">Home</a></li>
                 <li><a href="?page=film">Film</a></li>
                 <li><a href="?page=serie">Serie</a></li>
+                <li><a href="?page=realisateur">Réalisateur</a></li>
             </ul>
         </nav>
     </header>
