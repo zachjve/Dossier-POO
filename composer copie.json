@@ -1,0 +1,14 @@
+{
+  "name": "itakademy/videotheque",
+  "description": "videotheque project",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/controllers/",
+      "Model\\": "app/models/",
+      "Interfaces\\": "app/interfaces"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {}
+}
