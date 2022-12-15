@@ -6,44 +6,59 @@ class Film extends Media
 {
   protected $datas = [
     [
-      'titre' => 'Autant en emporte le vent',
-      'annee' => 1992,
-      'synopsis' => 'Vieux, mais bien ',
-      'genre' => ' lourd'
+      'titre' => 'Django Unchained',
+      'annee' => 2012,
+      'synopsis' => "Deux ans avant la Guerre civile, un ancien esclave du nom de Django s'associe avec un 
+        chasseur de primes d'origine allemande qui l'a libéré: il accepte de traquer avec lui des criminels 
+        recherchés. En échange, il l'aidera à retrouver sa femme perdue depuis longtemps et esclave elle aussi.",
+      'genre' => 'Western',
+      'realisateur' => 0 //Tarantino
     ],
     [
-      'titre' => 'braveheart',
-      'annee' => 1998,
-      'synopsis' => 'LIBERTEEEEEEEEEE ',
-      'genre' => 'combat'
+      'titre' => 'Arrête-moi si tu peux',
+      'annee' => 2002,
+      'synopsis' => "Frank Abagnale Jr croyait vivre dans une famille stable. Lorsqu'il apprend que ses parents
+        ont décidé de divorcer, il ne supporte pas la situation et, sous le choc, fugue. Bien vite confronté aux 
+        réalités de la vie en solitaire, il tente de s'insérer, mais découvre qu'il est plus facile d'endosser 
+        de faux chèques que de travailler. Il prend l'identité d'un pilote de ligne et mène la belle vie. 
+        Un agent du FBI opiniâtre le suit à la trace en espérant un jour le coincer.",
+      'genre' => 'Criminel',
+      'realisateur' => 1 //Spielberg
     ],
     [
-      'titre' => 'le dernier samaritain',
-      'annee' => 1995,
-      'synopsis' => 'UNE TUERIE ',
-      'genre' => 'action'
+      'titre' => 'Le loup de Wall Street',
+      'annee' => 2013,
+      'synopsis' => "Sa licence de courtier en poche, et les narines déjà pleines de cocaïne, Jordan Belfort
+        est prêt à conquérir Wall Street. Ce jour d'octobre, un krach, le plus important depuis 1929, vient 
+        piétiner ses rêves de grandeur. C'est finalement à Long Island qu'il échoue et qu'il monte sa propre 
+        affaire de courtage. Son créneau : le hors-cote. Sa méthode : l'arnaque. Son équipe : des vendeurs ou 
+        des petits trafiquants.",
+      'genre' => 'Comédie/Drame',
+      'realisateur' => 2 //Scorsese
     ],
     [
-      'titre' => 'Ace ventura',
-      'annee' => 2005,
-      'synopsis' => 'Ca c\'est du creneau vieuuuux',
-      'genre' => 'humour'
+      'titre' => 'Pulp Fiction',
+      'annee' => 1994,
+      'synopsis' => "L'odyssée sanglante et burlesque de petits malfrats dans la jungle de Hollywood à 
+        travers trois histoires qui s'entremêlent. Dans un restaurant, un couple de jeunes braqueurs, 
+        Pumpkin et Yolanda, discutent des risques que comporte leur activité. Deux truands, Jules Winnfield 
+        et son ami Vincent Vega, qui revient d'Amsterdam, ont pour mission de récupérer une mallette au 
+        contenu mystérieux et de la rapporter à Marsellus Wallace.",
+      'genre' => 'humour',
+      'realisateur' => 0 //Tarantino
     ],
     [
-      'titre' => 'Demolition Man',
-      'annee' => 1998,
-      'synopsis' => 'aussi froid qu\'une glace, hagendass',
-      'genre' => 'action'
-    ],
-    [
-      'titre' => 'Minority report',
-      'annee' => 2010,
-      'synopsis' => 'quand tu prevoit le turfu gros',
-      'genre' => 'action'
+      'titre' => 'Intouchable',
+      'annee' => 2011,
+      'synopsis' => "Tout les oppose et il était peu probable qu'ils se rencontrent un jour, et pourtant. 
+        Philippe, un riche aristocrate devenu tétraplégique après un accident de parapente va engager Driss, 
+        un jeune homme d'origine sénégalaise tout droit sorti de prison, comme auxiliaire de vie à domicile. 
+        Pourquoi lui ? Tout simplement parce qu'il ne regarde pas Philippe avec le même regard de pitié que 
+        les autres candidats.",
+      'genre' => 'Comédie dramatique',
+      'realisateur' => 3 //Nakache
     ]
   ];
-
-  
 }
 
 ?>
