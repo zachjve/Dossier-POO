@@ -3,6 +3,7 @@
 namespace App;
 
 use Interfaces\PageInterface;
+use Model\Realisateur;
 
 class Media implements PageInterface {
 
@@ -16,10 +17,18 @@ class Media implements PageInterface {
         return $datas;
     }
     
-      public function detail($id) {
+    public function detail($id) {
         $model = new $this->defaultModel();
         $data = $model->getDataById($id);
-    
+
         return $data;
+    }
+    public function getReal($id) {
+        $model = new $this->defaultModel();
+        $realisateur = new Realisateur;
+        $datareal = $realisateur->getDatas();
+        $real = $datareal[$id];
+        
+        return $real;
     }
 }

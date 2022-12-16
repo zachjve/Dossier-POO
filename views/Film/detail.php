@@ -3,3 +3,5 @@
 </h1>
 <p>Année : <?= $data['annee']; ?>
 </p>
+<p>Real : <?= $real['nom']; ?>
+</p>

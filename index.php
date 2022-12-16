@@ -57,6 +57,12 @@
 
   if ($_action == 'detail') {
     $data = $page->$_action($_id);
+    
+    //Pour eviter la recherche d'un undefined index dans le detail realisateur. 
+    if ($_page !== 'realisateur') {
+      $realId = $data['realisateur'];
+      $real = $page->getReal($realId);
+    }
   } 
   else {
     $datas = $page->$_action();

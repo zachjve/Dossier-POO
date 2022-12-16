@@ -48,6 +48,53 @@ class Realisateur extends Media
                 '2' => 'Hors normes',
                 '3' => 'Nos jours heureux'
             ]
-        ]
+        ],
+        [
+            'prenom' => 'Tom',
+            'nom' => 'Harper',
+            'birth' => 1980,
+            'place' => 'Londres',
+            'realisation' => [
+                '1' => 'Peaky Blinders',
+            ]
+        ],
+        [
+            'prenom' => 'Tony',
+            'nom' => 'Gilroy',
+            'birth' => 1956,
+            'place' => 'USA',
+            'realisation' => [
+                '1' => 'Star Wars Andor',
+                '2' => 'Jason Bourne',
+                '3' => 'Rogue One'
+            ]
+        ],
+        [
+            'prenom' => 'Bruno',
+            'nom' => 'Heller',
+            'birth' => 1980,
+            'place' => 'Londres',
+            'realisation' => [
+                '1' => 'The mentalist',
+            ]
+        ],
+        [
+            'prenom' => 'Lev',
+            'nom' => 'Spiro',
+            'birth' => '?',
+            'place' => 'USA',
+            'realisation' => [
+                '1' => 'Blue Montain State',
+            ]
+        ],
+        [
+            'prenom' => 'Shinji',
+            'nom' => 'Higuchi',
+            'birth' => 1965,
+            'place' => 'Japon',
+            'realisation' => [
+                '1' => 'Shingeki No Kyojin',
+            ]
+        ],
     ];
 }
