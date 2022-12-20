@@ -6,4 +6,4 @@ class Serie extends Media {
   protected $defaultModel = "Model\\Serie";
 }
 
-
+?>

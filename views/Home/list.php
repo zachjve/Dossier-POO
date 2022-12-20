@@ -1,49 +1,49 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="views/style.css" type="text/css">
-    <title>Home</title>
-</head>
-<body>
-    <section>
-        <h1>Mon vidéotech</h1>
+<section>
         <article>
-            <h2>Film</h2>
+            <h2><a href="?page=film">Film.</a></h2>
             <div>
-                <img src="Assets/django.jpeg">
-                <p>Django Unchained</p>
-                <img src="Assets/arrete.jpeg">
-                <p>Arrête moi si tu peux</p>
-                <img src="Assets/loup.jpeg">
-                <p>Le loup de Wall-Street</p>
+                <div>
+                    <a href="?page=film&action=detail&id=0"><img src="Assets/django.jpeg"></a>
+                </div>
+                <div>
+                    <a href="?page=film&action=detail&id=1"><img src="Assets/arrete.jpeg"></a>
+                </div>
+                <div>
+                    <a href="?page=film&action=detail&id=2"><img src="Assets/loup.jpeg"></a>
+                </div>
             </div>
         </article>
 
         <article>
-            <h2>Série</h2>
+            <h2><a href="?page=serie">Série.</a></h2>
             <div>
-                <img src="Assets/peaky.jpeg">
-                <p>Peaky Blinders</p>
-                <img src="Assets/mentalist.jpeg">
-                <p>The mentalist</p>
-                <img src="Assets/andor.jpeg">
-                <p>Star Wars Andor</p>
+                <div>
+                    <a href="?page=serie&action=detail&id=0"><img src="Assets/peaky.jpeg"></a>
+                </div>
+                <div>
+                    <a href="?page=serie&action=detail&id=2"><img src="Assets/mentalist.jpeg"></a>
+                </div>
+                <div>
+                    <a href="?page=serie&action=detail&id=1"><img src="Assets/andor.jpeg"></a>
+                </div>
             </div>
         </article>
     
         <article>
-            <h2>Réalisateur</h2>
+            <h2><a href="?page=realisateur">Réalisateur.</a></h2>
             <div>
-                <img src="Assets/tarantino.jpeg">
-                <p>Quentin Tarantino</p>
-                <img src="Assets/steven.jpeg">
-                <p>Steven Spielberg</p>
-                <img src="Assets/martin.jpeg">
-                <p>Martin Scorsese</p>
+                <div class="real">
+                    <a href="?page=realisateur&action=detail&id=0"><img src="Assets/tarantino.jpeg"></a>
+                    <p>Quentin Tarantino.</p>
+                </div>
+                <div class="real">
+                    <a href="?page=realisateur&action=detail&id=1"><img src="Assets/steven.jpeg"></a>
+                    <p>Steven Spielberg.</p>
+                </div>
+                <div class="real">
+                    <a href="?page=realisateur&action=detail&id=2"><img src="Assets/martin.jpeg"></a>
+                    <p>Martin Scorsese.</p>
+                </div>
             </div>
         </article>
-</section>   
-</body>
-</html>
+</section>

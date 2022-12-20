@@ -23,6 +23,7 @@ class Media implements PageInterface {
 
         return $data;
     }
+
     public function getReal($id) {
         $model = new $this->defaultModel();
         $realisateur = new Realisateur;
@@ -32,3 +33,5 @@ class Media implements PageInterface {
         return $real;
     }
 }
+
+?>

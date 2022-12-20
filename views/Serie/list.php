@@ -1,16 +1,15 @@
+<div class="padTop"></div>
+
 <ul>
 <?php 
     $i = 0;
     foreach ($datas as $data) { ?>
-            <li> 
-                <article>
-                    <h2><?= $data['titre'] ?></h2> 
-                    <p>Genre : <?= $data['genre'] ?></p>
-                </article>
+            <li class="list"> 
+                <h4><a href="?page=serie&action=detail&id=<?= $i ?>"><?= $data['titre'] ?></a></h4> 
+                <p>Genre : <?= $data['genre'] ?></p>
             </li>
-        <div>
-            <a href="?page=serie&action=detail&id=<?= $i ?>">Découvrir</a>    
-        </div>
         <?php $i++; 
     } ?>
-</ul
+</ul>
+
+<div class="padBottom"></div>

@@ -8,6 +8,7 @@ class Realisateur extends Media
         [
             'prenom' => 'Quentin',
             'nom' => 'Tarantino',
+            'image' => 'Assets/tarantino.jpeg',
             'birth' => 1963,
             'place' => 'USA',
             'realisation' => [
@@ -19,6 +20,7 @@ class Realisateur extends Media
         [
             'prenom' => 'Steven',
             'nom' => 'Spielberg',
+            'image' => 'Assets/steven.jpeg',
             'birth' => 1946,
             'place' => 'USA',
             'realisation' => [
@@ -30,6 +32,7 @@ class Realisateur extends Media
         [
             'prenom' => 'Martin',
             'nom' => 'Scorsese',
+            'image' => 'Assets/martin.jpeg',
             'birth' => 1942,
             'place' => 'USA',
             'realisation' => [
@@ -41,6 +44,7 @@ class Realisateur extends Media
         [
             'prenom' => 'Olivier',
             'nom' => 'Nakache',
+            'image' => '',
             'birth' => 1973,
             'place' => 'France',
             'realisation' => [
@@ -52,6 +56,7 @@ class Realisateur extends Media
         [
             'prenom' => 'Tom',
             'nom' => 'Harper',
+            'image' => '',
             'birth' => 1980,
             'place' => 'Londres',
             'realisation' => [
@@ -61,6 +66,7 @@ class Realisateur extends Media
         [
             'prenom' => 'Tony',
             'nom' => 'Gilroy',
+            'image' => '',
             'birth' => 1956,
             'place' => 'USA',
             'realisation' => [
@@ -72,6 +78,7 @@ class Realisateur extends Media
         [
             'prenom' => 'Bruno',
             'nom' => 'Heller',
+            'image' => '',
             'birth' => 1980,
             'place' => 'Londres',
             'realisation' => [
@@ -81,6 +88,7 @@ class Realisateur extends Media
         [
             'prenom' => 'Lev',
             'nom' => 'Spiro',
+            'image' => '',
             'birth' => '?',
             'place' => 'USA',
             'realisation' => [
@@ -90,6 +98,7 @@ class Realisateur extends Media
         [
             'prenom' => 'Shinji',
             'nom' => 'Higuchi',
+            'image' => '',
             'birth' => 1965,
             'place' => 'Japon',
             'realisation' => [
