@@ -1,5 +1,3 @@
-<div class="padTop"></div>
-
 <h1 class="detail">
   <?= $data['titre']; ?>
 </h1>
@@ -22,5 +20,3 @@
     </li>
   <?php endforeach ?>
 </ul>
-
-<div class="padBottom"></div>

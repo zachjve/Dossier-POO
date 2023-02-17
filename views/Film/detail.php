@@ -1,5 +1,3 @@
-<div class="padTop"></div>
-
 <h1 class="detail"><?= $data['titre']; ?></h1>
 
 <?php if ( !empty($data['image'])) : ?>
@@ -11,5 +9,3 @@
 <p class="detail">Sortie : <?= $data['annee']?></p>
 <p class="detail">Realisateur : <a href='?page=realisateur&action=detail&id=
 <?= $data['realisateur'] ?>'><?= $real['prenom'] . ' ' . $real['nom']; ?></a></p>
-
-<div class="padBottom"></div>

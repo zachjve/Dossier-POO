@@ -24,14 +24,20 @@
       case '':
       default:
         $_page = 'home';
+        $_action = 'list';
         break;
     }
   }
 
+  if ($_page == 'home') {
+    $_action = 'listHome';
+  }
+  //echo $_page . ' ' . $_action;
+
   if (isset($_GET['action']) && !empty(trim($_GET['action']))) {
     $get_action = trim($_GET['action']);
     $tab_action = ['list', 'detail'];
-
+    
     switch ($get_action) {
       case 'detail':
         $_action = 'detail';
@@ -44,10 +50,9 @@
     }
   }
 
-  //echo $_page . ' ' . $_action;
   //creation du lien au loader qui mene au controller
   $controller = "App\\" . ucfirst(strtolower($_page));
-  //echo $controller;
+  
   //instancier le controller
   $page = new $controller;
 
@@ -58,7 +63,7 @@
   if ($_action == 'detail') {
     $data = $page->$_action($_id);
     
-    //Pour eviter la recherche d'un undefined index dans le detail realisateur. 
+    //Eviter la recherche d'un 'undefined index' dans le detail realisateur. 
     if ($_page !== 'realisateur') {
       $realId = $data['realisateur'];
       $real = $page->getReal($realId);

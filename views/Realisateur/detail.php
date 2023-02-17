@@ -1,5 +1,3 @@
-<div class="padTop"></div>
-
 <h1 class="detail"><?= $data['prenom'] .' '. $data['nom']; ?></h1>
 
 <?php if ( !empty($data['image'])) : ?>
@@ -14,5 +12,3 @@
     <li><?= $data ?></li>
   <?php endforeach ?>
 </ul>
-
-<div class="padBottom"></div>

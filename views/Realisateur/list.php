@@ -1,5 +1,3 @@
-<div class="padTop"></div>
-
 <ul>
 <?php 
     $i = 0;
@@ -11,5 +9,3 @@
         <?php $i++; 
     } ?>
 </ul>
-
-<div class="padBottom"></div>
